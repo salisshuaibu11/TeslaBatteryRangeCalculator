@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Battery Range</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <!-- <img src="../dist/css/assets/logo.svg" alt="Logo"> -->
+        </div>
+
+        <div class="tesla-car">
+            <div class="tesla-wheels">
+
+            </div>
+        </div>
+
+        <div class="tesla-stats">
+            <ul>
+
+            </ul>
+        </div>
+
+        <div class="tesla-counter">
+            <div class="speed-container">
+                <p class="tesla-counter__title">Speed</p>
+                <div class="tesla-counter__container">
+                    <div class="tesla-counter__item">
+                        <p class="tesla-counter__number tesla-counter__number--speed">
+                            55 <span>mph</span>
+                        </p>
+                        <div class="tesla-counter__controls">
+                            <button class="speed__arrow-up"></button>
+                            <button class="speed__arrow-down"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="temperature-container">
+                <p class="tesla-counter__title">Outside Temperature</p>
+                <div class="tesla-counter__container">
+                    <div class="tesla-counter__item">
+                        <p class="tesla-counter__number tesla-counter__number--temp">
+                            20 <span>deg</span>
+                        </p>
+                        <div class="tesla-counter__controls">
+                            <button class="temp__arrow-up"></button>
+                            <button class="temp__arrow-down"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tesla-climate">
+                <label class="tesla-climate__item tesla-climate__item--active">
+                  <p>AC ON</p>
+                  <i class="tesla-climate__icon"></i>
+                  <input type="checkbox" name="climate">
+                </label>
+            </div>
+
+            <div class="tesla-wheels__component">
+              <p class="tesla-wheels__title">Wheels</p>
+              <div class="wheels">
+                <div class="tesla-wheels__container cf">
+                  <label class="tesla-wheels__item tesla-wheels__item--19" data-id="19">
+                    <input type="radio" name="wheelsize">
+                    <p>19</p>
+                  </label>
+                </div>
+                <div class="tesla-wheels__container cf">
+                  <label class="tesla-wheels__item tesla-wheels__item--21" data-id="21">
+                    <input type="radio" name="wheelsize">
+                    <p>21</p>
+                  </label>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
